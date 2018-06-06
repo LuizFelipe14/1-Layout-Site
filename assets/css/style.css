@@ -1,0 +1,176 @@
+*{
+	font-family:Arial;
+}
+body{
+	margin:0;
+	padding:0;
+}
+#topo1{
+	display:flex;
+	justify-content:center;
+	background-color:#323f4f;
+}
+.container{
+	display:flex;
+	justify-content:center;
+	width:1175px;	
+}
+.topo1{
+	display:flex;
+	align-items:center;
+	height:60px;
+	width:100%;
+}
+.logo{
+	display:flex;
+	color:#FFF;
+	font-size:25px;
+
+}
+.menu{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+nav ul,
+nav li{
+	list-style:none; /* Retirando bolinhas */
+	padding:0;
+	margin:0;
+}
+nav ul{
+	display:flex; /* Para ficarem um do lado do outro */
+
+}
+nav a{
+	display:flex; 
+	justify-content:center;
+	padding:15px; /* Para afastar um do outr */
+	text-decoration:none;
+	color:#FFF;
+}
+.active{
+	width:110px;
+	padding-left:10px;
+}
+nav .active a{
+	background-color:#fd6861;
+	border-radius:5px;
+}
+nav a:hover{
+	color:#fd6861;
+}
+.search_shop{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.search_shop img{
+	padding-left:20px;
+}
+#topo2{
+	display:flex;
+	justify-content:center;
+	background-color:#fd6861;
+}
+.topo2{
+	display:flex;
+	align-items:center;
+	height:100px;
+	width:100%;
+	justify-content:space-between;
+
+}
+.topo2 t1{
+	font-size:25px;
+	color:#FFF;
+}
+.menu2{
+	display:flex;
+}
+ul li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+ul{
+	display:flex;
+}
+ul a{
+	display:flex;
+	text-decoration:none;
+	padding:15px;
+	color:#FFF;
+}
+.column{
+	display:flex;
+	flex-direction:column;
+}
+#main{
+	display:flex;
+	justify-content:center;
+	background-color:#b3b3b3;
+}
+.main{
+	display:flex;
+	align-items:center;
+	height:350px;
+	width:100%;
+}
+.conteudo{
+	display:flex;
+	align-items:center;
+	width:235px;
+}
+.conteudo t1{
+	padding:20px;
+	color:#FFF;
+	font-size:20px;
+}
+.conteudo t2{
+	color:#ecedee;
+	font-size:15px;
+
+}
+footer{
+	display:flex;
+	justify-content:center;
+	background-color:#465568;
+
+}
+.titulo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:170px;
+	border-bottom:1px solid #5a6c82;
+	
+}
+.titulo t1{
+	font-size:30px;
+	color:#FFF;
+	padding-top:60px;
+}
+.main_footer{
+	display:flex;
+	
+}
+.main_footer img{
+	padding-top:30px;
+	padding-right:30px;
+	padding-left:20px;
+}
+.content{
+	width:270px;
+	height:140px;
+	padding-top:30px;
+}
+.content t1{
+	font-size:20px;
+	color:#FFF;
+	padding-bottom:15px;
+}
+.content t2{
+	font-size:15px;
+	color:#cacddc;
+}

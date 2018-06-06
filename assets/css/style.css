@@ -136,7 +136,6 @@ footer{
 	display:flex;
 	justify-content:center;
 	background-color:#465568;
-
 }
 .titulo{
 	display:flex;
@@ -164,6 +163,7 @@ footer{
 	width:270px;
 	height:140px;
 	padding-top:30px;
+	margin-bottom:60px;
 }
 .content t1{
 	font-size:20px;
